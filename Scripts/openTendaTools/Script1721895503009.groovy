@@ -21,13 +21,11 @@ Mobile.startApplication('D:\\Kelas\\Eduwork\\Katalon\\EduApp\\mobileapp\\app-pen
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/mobileTest/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('AppPendaki/Strip3_Button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/mobileTest/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('AppPendaki/Peralatan_Button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/mobileTest/android.widget.CheckedTextView - Peralatan'), 0)
-
-Mobile.tap(findTestObject('Object Repository/mobileTest/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('AppPendaki/Tenda_Button'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
