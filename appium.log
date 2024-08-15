@@ -1,102 +1,79 @@
 [38;5;112m[Appium][0m Welcome to Appium v2.11.2
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m49862[39m }
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m63249[39m }
 [38;5;112m[Appium][0m Attempting to load driver windows...
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:49862/wd/hub
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:63249/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://192.168.75.77:49862/wd/hub
-	http://127.0.0.1:49862/wd/hub (only accessible from the same host)
+	http://192.168.38.77:63249/wd/hub
+	http://127.0.0.1:63249/wd/hub (only accessible from the same host)
 [38;5;112m[Appium][0m Available drivers:
 [38;5;112m[Appium][0m   - windows@2.12.26 (automationName 'Windows')
 [38;5;112m[Appium][0m   - uiautomator2@3.7.4 (automationName 'UiAutomator2')
 [38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
-[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 111[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
 [38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":8289,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:platformVersion":"11","appium:deviceId":"","appium:udid":"6tswgeushycafurk","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:appActivity":".Settings","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","platformName":"Android","appium:appPackage":"com.android.settings"},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"11","appium:systemPort":8289,"appium:udid":"6tswgeushycafurk","platformName":"android"}]}}[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"desiredCapabilities":{"appium:systemPort":8243,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:platformVersion":"11","appium:deviceId":"","appium:udid":"6tswgeushycafurk","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:appActivity":".Settings","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","platformName":"Android","appium:appPackage":"com.android.settings"},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi Redmi Note 8 Pro (Android 11)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"11","appium:systemPort":8243,"appium:udid":"6tswgeushycafurk","platformName":"android"}]}}[39m
 [38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
 [38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
 [38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
 [38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
 [38;5;112m[Appium][0m Will require it at C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver
-[38;5;219m[AppiumDriver@f1cc][0m Appium v2.11.2 creating new AndroidUiautomator2Driver (v3.7.4) session
-[38;5;219m[AppiumDriver@f1cc][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;219m[AppiumDriver@f1cc][0m Appium's BaseDriver version is 9.11.2
-[38;5;219m[AppiumDriver@f1cc][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.2
-[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m The following provided capabilities were not recognized by this driver:
-[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m   deviceId
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Session created with session id: 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Admin\AppData\Local\Android\Sdk' (newest first):
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\35.0.0
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Retrieving device list
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Using device: 6tswgeushycafurk
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Starting 'com.android.settings' directly on the device
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Getting device platform version
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Relaxing hidden api policy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m No app sent in, not parsing package/activity
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\35.0.0\aapt2.exe'
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Server packages are not going to be (re)installed
-[38;5;153m[5e697d16][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Starting UIAutomator2 server 7.0.20
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Using UIAutomator2 server from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.20.apk' and test from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Waiting up to 30000ms for UiAutomator2 to be online...
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m socket hang up
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m socket hang up
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Determined the downstream protocol as 'W3C'
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Screen already unlocked, doing nothing
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
-[38;5;153m[5e697d16][0m[38;5;219m[AppiumDriver@f1cc][0m New AndroidUiautomator2Driver session created successfully, session 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b added to master session list
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m4803 ms - 1148[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b [39m[32m200[39m [90m17 ms - 338[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b [39m[32m200[39m [90m11 ms - 338[39m [90m[39m
+[38;5;151m[AppiumDriver@4ee7][0m Appium v2.11.2 creating new AndroidUiautomator2Driver (v3.7.4) session
+[38;5;151m[AppiumDriver@4ee7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;151m[AppiumDriver@4ee7][0m Appium's BaseDriver version is 9.11.2
+[38;5;151m[AppiumDriver@4ee7][0m AndroidUiautomator2Driver's BaseDriver version is 9.11.2
+[38;5;-71m[AndroidUiautomator2Driver@65b9][0m The following provided capabilities were not recognized by this driver:
+[38;5;-71m[AndroidUiautomator2Driver@65b9][0m   deviceId
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Session created with session id: f7a02784-38e7-4257-92c2-121ded1dbc12
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Admin\AppData\Local\Android\Sdk' (newest first):
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m     C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\35.0.0
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Retrieving device list
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Using device: 6tswgeushycafurk
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Starting 'com.android.settings' directly on the device
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Relaxing hidden api policy
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m No app sent in, not parsing package/activity
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\35.0.0\aapt2.exe'
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Server packages are not going to be (re)installed
+[38;5;161m[f7a02784][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Starting UIAutomator2 server 7.0.20
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Using UIAutomator2 server from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.0.20.apk' and test from 'C:\Users\Admin\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m socket hang up
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m socket hang up
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m socket hang up
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Determined the downstream protocol as 'W3C'
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Screen already unlocked, doing nothing
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[38;5;161m[f7a02784][0m[38;5;151m[AppiumDriver@4ee7][0m New AndroidUiautomator2Driver session created successfully, session f7a02784-38e7-4257-92c2-121ded1dbc12 added to master session list
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m5490 ms - 1148[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12 [39m[32m200[39m [90m9 ms - 338[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12 [39m[32m200[39m [90m7 ms - 338[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
 [38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/timeouts[39m [90m{"implicit":60000}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/appium/device/system_bars[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/appium/device/system_bars [39m[31m500[39m [90m110 ms - 684[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/execute/sync[39m [90m{"script":"mobile:viewportRect","args":[]}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Executing native command 'mobile:viewportRect'
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/execute/sync [39m[32m200[39m [90m21 ms - 56[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/appium/device/activate_app[39m [90m{"bundleId":"com.ai.chat.bot.aichat"}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/appium/device/activate_app [39m[32m200[39m [90m136 ms - 14[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Replacing sessionId 8d5ba20d-95ff-4d81-92d2-d0a520632cbe with 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source [39m[32m200[39m [90m1852 ms - 5938[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot [39m[32m200[39m [90m794 ms - 218032[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Replacing sessionId 8d5ba20d-95ff-4d81-92d2-d0a520632cbe with 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source [39m[32m200[39m [90m124 ms - 25412[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot [39m[32m200[39m [90m370 ms - 264192[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Replacing sessionId 8d5ba20d-95ff-4d81-92d2-d0a520632cbe with 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source [39m[32m200[39m [90m355 ms - 25412[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot [39m[32m200[39m [90m617 ms - 247132[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Replacing sessionId 8d5ba20d-95ff-4d81-92d2-d0a520632cbe with 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source [39m[32m200[39m [90m127 ms - 12047[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot [39m[32m200[39m [90m967 ms - 940016[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Replacing sessionId 8d5ba20d-95ff-4d81-92d2-d0a520632cbe with 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/source [39m[32m200[39m [90m125 ms - 11563[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b/screenshot [39m[32m200[39m [90m582 ms - 107440[39m [90m[39m
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b[39m [90m{}[39m
-[38;5;153m[5e697d16][0m[38;5;219m[AppiumDriver@f1cc][0m Removing session 5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b from our master session list
-[38;5;153m[5e697d16][0m[38;5;-162m[AndroidUiautomator2Driver@1ea6][0m Restoring hidden api policy to the device default configuration
-[38;5;153m[5e697d16][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/5e697d16-4eff-4ca2-8a0d-ea5a54ff0a6b [39m[32m200[39m [90m280 ms - 14[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/timeouts [39m[32m200[39m [90m1 ms - 14[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/appium/device/system_bars[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/appium/device/system_bars [39m[31m500[39m [90m88 ms - 684[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/execute/sync[39m [90m{"script":"mobile:viewportRect","args":[]}[39m
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Executing native command 'mobile:viewportRect'
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/execute/sync [39m[32m200[39m [90m14 ms - 56[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/appium/device/activate_app[39m [90m{"bundleId":"com.samsung.ecomm"}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/appium/device/activate_app [39m[32m200[39m [90m81 ms - 14[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/source[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Replacing sessionId d7d499b4-ce66-4671-a782-a4e7f6dffb32 with f7a02784-38e7-4257-92c2-121ded1dbc12
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/source [39m[32m200[39m [90m1519 ms - 19854[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/screenshot[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12/screenshot [39m[32m200[39m [90m344 ms - 96512[39m [90m[39m
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12[39m [90m{}[39m
+[38;5;161m[f7a02784][0m[38;5;151m[AppiumDriver@4ee7][0m Removing session f7a02784-38e7-4257-92c2-121ded1dbc12 from our master session list
+[38;5;161m[f7a02784][0m[38;5;-71m[AndroidUiautomator2Driver@65b9][0m Restoring hidden api policy to the device default configuration
+[38;5;161m[f7a02784][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/f7a02784-38e7-4257-92c2-121ded1dbc12 [39m[32m200[39m [90m263 ms - 14[39m [90m[39m
